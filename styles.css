@@ -8,15 +8,29 @@ body{
 .post{
     background-color: white;
     height: 580px;
-    width: 75%;
+    width: 65%;
 }
 
 .header{
     display: flex;
 }
 
+.nameDescription{
+    margin-top: 10px;
+}
+
+.rigoberto{
+    margin: 0;
+}
+    
 .iconHTML{
     margin: 15px;
+
+}
+
+.iconElipsis{
+    margin-top: 12px;
+    margin-left: 280px;
 }
 
 .content{
@@ -31,4 +45,9 @@ img{
 .footer{
     padding-left: 10px;
     padding-right: 11px;
+}
+
+.footerIconHeader{
+    margin-top: 10px;
+    
 }
