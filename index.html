@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>instagramPost</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
@@ -14,13 +14,28 @@
             <div class="iconHTML">
                 <i class="fab fa-html5" style="font-size: 170%;"></i>
             </div>
-            <div class="nameDescription"></div>
-            <div class="iconElipsis"></div>
+            <div class="nameDescription">
+                <p><strong>HTML5</strong></p>
+                <p>Rigoberto</p>
+            </div>
+            <div class="iconElipsis">
+                <i class="fa-solid fa-ellipsis fa-rotate-90"></i>
+            </div>
         </div>
-        <div class="content"></div>
+        <div class="content">
+            <img src="https://www.mazzeschi.it/mazzeschi-asiadesk/wp-content/uploads/2020/06/11.jpg" alt="">
+        </div>
         <div class="footer">
-            <div class="footerIconHeader"></div>
-            <div class="footerDescription"></div>
+            <div class="footerIconHeader">
+                <i class="fa-sharp fa-regular fa-heart" style="font-size: 100%;"></i>
+                <font-awesome-icon :icon="['far', 'comment']" />
+                <font-awesome-icon :icon="['fal', 'paper-plane']" />
+                <font-awesome-icon :icon="['fasr', 'bookmark']" />
+            </div>
+            <div class="footerDescription">
+                <p>Liked by <strong>4GeeksAcademy</strong>,<strong>html5</strong>, <strong>Web</strong>, and <strong>100,000 others</strong></p>
+                <p>Lorem ipsun dolor sit ament, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim neviam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+            </div>
         </div>
     </div>
 </body>
