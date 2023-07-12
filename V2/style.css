@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+
+.post{
+    background-color: white;
+    width: 450px;
+    height: 200px;
+    margin: auto;
+}
