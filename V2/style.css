@@ -9,6 +9,10 @@ body{
     margin: auto;
 }
 
+.title{
+    justify-content: space-around;
+}
+
 .icon1{
     margin-top: 10px;
 }
