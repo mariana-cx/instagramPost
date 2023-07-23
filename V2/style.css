@@ -9,6 +9,11 @@ body{
     margin: auto;
 }
 
+.post head{
+    margin-top: 70px;
+    display: flex;
+}
+
 .title{
     justify-content: space-around;
 }
