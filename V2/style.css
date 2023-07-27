@@ -4,7 +4,7 @@ body{
 
 .post{
     background-color: white;
-    width: 450px;
+    width: 400px;
     height: 60px;
     margin: auto;
 }
@@ -26,7 +26,7 @@ body{
 }
 
 .postbody{
-    width: 450px;
+    width: 400px;
     height: 200px;
     margin: auto;
 }
@@ -37,7 +37,7 @@ img{
 }
 
 .postfooter{
-    width: 450px;
+    width: 400px;
     height: 250px;
     background-color: white;
     margin: auto;
